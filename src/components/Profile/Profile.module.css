@@ -1,0 +1,61 @@
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.avatar {
+    width: 100%;
+}
+
+.name {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tag {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.location {
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #a4f4ff;
+    width: calc(100% / 3);
+    border: 1px solid rgb(0, 165, 177);
+    padding: 10px;
+}
+
+.card:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.card:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+.label{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    margin-bottom: 5px;
+}
+
+.quantity{
+    display: block;
+    text-align: center;
+}
